@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/informatica"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/inform_tica"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Computador"
+        android:layout_width="91dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/informatica"
+        app:srcCompat="@drawable/computador"
+        android:contentDescription="@string/todo1"
+        android:onClick="computador"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/Computador"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Computador"
+        app:layout_constraintTop_toTopOf="@+id/Computador" />
+
+    <ImageView
+        android:id="@+id/Notebook"
+        android:layout_width="97dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Computador"
+        app:srcCompat="@drawable/notebook"
+        android:contentDescription="@string/todo2"
+        android:onClick="notebook"/>
+
+    <TextView
+        android:id="@+id/Notebook_Text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/Notebook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Notebook"
+        app:layout_constraintTop_toTopOf="@+id/Notebook" />
+
+    <ImageView
+        android:id="@+id/Netbook"
+        android:layout_width="99dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Notebook"
+        app:srcCompat="@drawable/netbook"
+        android:contentDescription="@string/todo3"
+        android:onClick="netbook"/>
+
+    <TextView
+        android:id="@+id/Netbook_Text"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/Netebook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Netbook"
+        app:layout_constraintTop_toTopOf="@+id/Netbook" />
+
+</android.support.constraint.ConstraintLayout>

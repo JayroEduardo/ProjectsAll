@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Atividade_Desafio</string>
+    <string name="action_settings">Settings</string>
+    <string name="inform_tica">Informática</string>
+    <string name="Notebook">computador portátil, espécie de laptop com peso de cerca de 2 kg, e dimensões próximas às de um livro de tamanho médio (8,5 cm por 11 cm, com pouco mais de 7 cm de altura).</string>
+    <string name="Computador">máquina destinada ao processamento de dados, capaz de obedecer a instruções que visam produzir certas transformações nesses dados para alcançar um fim determinado.</string>
+    <string name="todo1">TODO</string>
+    <string name="Netebook">Netbooks são uma categoria menor, mais leve e mais barata de laptops. Quando surgiram, ao final de 2007</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+</resources>
